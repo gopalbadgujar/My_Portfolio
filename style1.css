@@ -1,0 +1,370 @@
+        /* General reset for all elements */
+        
+        * {
+            margin: 0;
+        }
+        /* Body styles for the background and font */
+        
+        @media only screen and (max-width: 600px) {
+            body {
+                background-color: rgb(15 13 39);
+                font-family: "Poppins", sans-serif;
+                color: white;
+                margin-right: -95px;
+                /* Adjusted margin for mobile view */
+            }
+            /* Navigation styles */
+            nav {
+                height: auto;
+                /* Adjusted height for mobile view */
+                background-color: rgb(16 6 28);
+            }
+            nav ul {
+                display: flex;
+                justify-content: center;
+                font-size: 8px;
+                margin: 2px -15px 0 66px;
+                padding-left: 0px;
+                font-size: 6px;
+                padding-right: 0px;
+            }
+            nav ul li {
+                list-style: none;
+                margin-right: 23px;
+            }
+            /* Left section image size */
+            .leftsection img {
+                width: 161px;
+                height: 215px;
+            }
+            /* Right section font size */
+            .rightsection {
+                font-size: 11px;
+                font-family: Dancing Script;
+                margin-top: 1rem;
+                margin-left: 5rem;
+            }
+            /* First section styles */
+            .firstsection {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                margin: 21px 0px 0px 0;
+            }
+            /* Main horizontal line styles */
+            main hr {
+                border: 0;
+                background: #ab76a5;
+                height: 5px;
+                margin: 50px 10px 10px 10px;
+                margin-left: 1rem;
+            }
+            /* Text color for gray text */
+            .text-gray {
+                color: gray;
+                font-size: 12px;
+                font-family: monospace;
+            }
+            /* Third section styles */
+            .thirdsection {
+                max-width: 100vw;
+                margin: 5px;
+                margin-left: 25px;
+                height: 550px;
+            }
+            /* Box in the third section */
+            .thirdsection .box {
+                background: white;
+                width: 290px;
+                height: 2px;
+                margin: 10px 1px 10px 10px;
+                display: flex;
+            }
+            .vertical-title {
+                position: relative;
+                left: -25px;
+                width: 51px;
+                font-size: 8px;
+            }
+            /* Vertical description position */
+            .vertical-desc {
+                position: relative;
+                top: 70px;
+                left: -45px;
+                color: gray;
+                width: 70px;
+                font-size: 5px;
+                font-family: serif;
+            }
+            /* Vertical line in the third section */
+            .thirdsection .vertical {
+                height: 30px;
+                width: 1.5px;
+                background-color: white;
+                /* margin: 1px 1px 0px -2px; */
+            }
+            .thirdsection div.sk {
+                margin-top: 12rem;
+            }
+            #hh1 {
+                color: white;
+                margin-left: 17px;
+                margin-top: 2px;
+            }
+            @media screen and (max-width: 900px) {
+                .skillcontainer {
+                    padding: 20px 0;
+                    margin-left: -8px;
+                    margin-right: 62px;
+                }
+            }
+            /* Footer styles */
+            footer {
+                background-color: rgb(36 35 54);
+                margin-right: -5px;
+            }
+            .footer {
+                display: flex;
+                padding: 4px 44px;
+                justify-content: space-evenly;
+                align-items: center;
+            }
+            .footer-first {
+                font-family: cursive;
+                font-size: 6px;
+            }
+            .footer ul {
+                list-style: none;
+                font-size: 7px;
+                color: #777777;
+            }
+            /* Footer rights text styles */
+            footer .footer-rights {
+                text-align: center;
+                color: gray;
+                padding: 12px 0;
+                font-family: cursive;
+                font-size: 8px;
+            }
+            /* Logo styles */
+            .logo {
+                display: flex;
+                margin: 10px 30px;
+                align-items: center;
+                margin-top: 25rem;
+            }
+            .logo#qualification_margin {
+                margin-top: 5rem;
+            }
+            .logo a img {
+                height: 13px;
+            }
+            /* Main styles */
+            .main {
+                width: 100vw;
+            }
+            /* Heading styles */
+            .main .heading {
+                font-family: "Courier New", Courier, monospace;
+                margin: 50px 50px;
+            }
+            .main .heading h1 {
+                display: contents;
+            }
+            /* Image styles in the main section */
+            .main div img {
+                margin: -3px 17px;
+                height: 240px;
+                width: 225px;
+            }
+            /* Heading in the main section */
+            .main .head p {
+                font-family: system-ui;
+                margin: 132px -51px 6px 98px;
+                font-size: 11px;
+            }
+            /* Course item button styles */
+            .courseitem #bom {
+                background: #331c30;
+                color: rgb(255, 255, 255);
+                border: 2px solid white;
+                border-radius: 6px;
+                font-size: 3px;
+                cursor: pointer;
+                padding: 4px 6px;
+                margin: 0px 0px;
+            }
+            /* Vertical description pre styles */
+            .ver-desc pre {
+                font-family: cursive;
+                margin-top: -65px;
+                margin-left: 176px;
+                font-size: 6px;
+            }
+            /* Four section styles */
+            /* span#element2 {
+            margin-left: -2rem;
+        } */
+            .qualification1 {
+                height: 300px;
+                margin-top: 10rem;
+            }
+            .mainhq {
+                margin-top: -7rem;
+            }
+            .one {
+                height: 300px;
+                margin-top: 10rem;
+            }
+            .mainhc {
+                margin-top: -8rem;
+            }
+            .coursecontainer {
+                margin: 9px 10px 10px 10px;
+                font-size: 15px;
+            }
+            .coursecontainer h1 {
+                font-family: monospace;
+                color: wheat;
+                font-size: 12px;
+            }
+            .courseitem h3 {
+                font-family: sans-serif;
+                height: 0px;
+                width: 450px;
+                font-size: 10px;
+            }
+            .courseitem .study img {
+                height: 155px;
+                width: 143px;
+            }
+            .courseitem p {
+                font-family: initial;
+                margin: 45px 0 16px 0px;
+                display: inline;
+                padding: 0;
+                font-size: 8px;
+            }
+            .foursection {
+                max-width: 80vw;
+                margin: 47px 0 0 52px;
+                height: 650px;
+            }
+            .foursection h1 {
+                font-family: cursive;
+                font-size: 18px;
+                margin-bottom: 25px;
+                margin-left: -2rem;
+            }
+            .foursection .line {
+                background: white;
+                width: 305px;
+                height: 2px;
+                margin: 0px 0 17px -25px;
+                display: flex;
+            }
+            .foursection .ver {
+                height: 40px;
+                width: 2px;
+                background-color: white;
+                margin: 0px 0px;
+            }
+            .ver-desc {
+                position: relative;
+                top: 135px;
+                left: -250px;
+                color: white;
+                width: 150px;
+                font-size: 12px;
+                font-family: sans-serif;
+            }
+            .ver-desc#text {
+                left: -270px;
+            }
+            .ver-title {
+                position: relative;
+                top: 220px;
+                left: -7px;
+                width: 95px;
+                font-family: sans-serif;
+            }
+            .ver-desc pre {
+                font-family: sans-serif;
+                margin-top: -60px;
+                margin-left: 210px;
+                font-size: 5px;
+            }
+            /* Vertical title fieldset styles */
+            .ver-title fieldset {
+                margin: -172px 112px 0px 0px;
+                font-size: 9px;
+            }
+            /* Course container heading styles */
+            .coursecontainer h1 {
+                padding: 7px 0px 23px 16px;
+                font-family: monospace;
+                color: #93a5a5;
+                font-size: 3px;
+            }
+            /* Course item heading styles */
+            .courseitem h3 {
+                font-family: cursive;
+                height: 0px;
+                width: 446px;
+                font-size: 6px;
+            }
+            /* Course item paragraph styles */
+            .courseitem p {
+                font-family: initial;
+                margin: 45px 0 16px 0px;
+                display: inline;
+                padding: 0;
+                font-size: 6px;
+            }
+            /* Course item study button styles */
+            .courseitem .study {
+                float: right;
+                padding: 0 0 0 0px;
+            }
+            /* Course item study image styles */
+            .courseitem .study img {
+                height: 145px;
+                width: 143px;
+                margin: -117px 2px;
+            }
+            /* Contact form styles */
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+            section {
+                text-align: center;
+            }
+            .logo {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                margin: 10px 0;
+            }
+            .logo div {
+                flex: 1;
+                margin: 0 5px;
+            }
+            .logo img {
+                max-width: 100%;
+                height: auto;
+            }
+            .logo {
+                flex-direction: column;
+            }
+            .logo a img {
+                height: 35px;
+                width: 35px;
+            }
+            #form-check input {
+                width: 24px;
+                margin: 2px 0px;
+                height: 40px;
+            }
+        }

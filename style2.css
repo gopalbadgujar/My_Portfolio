@@ -1,0 +1,918 @@
+        * {
+            /* asetrisk */
+            margin: 0;
+            margin: 0;
+        }
+        
+        body {
+            background-color: rgb(15 13 39);
+            font-family: "Poppins", sans-serif;
+            color: white;
+        }
+        
+        #img {
+            height: 100px;
+            width: 300px;
+            mix-blend-mode: color-dodge;
+            margin-left: -168px;
+        }
+        
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            height: 90px;
+            background-color: rgb(16 6 28);
+        }
+        
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+        
+        nav ul li {
+            list-style: none;
+            margin-right: 23px;
+        }
+        
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+        
+        nav ul li a:hover {
+            color: rgb(174, 96, 205);
+            font-size: 18px;
+        }
+        
+        main hr {
+            border: 0;
+            background: #ab76a5;
+            height: 1.2px;
+            margin: 30px 84px;
+        }
+        
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 35px 0 30px 0;
+        }
+        
+        .firstsection>div {
+            /* firstsection madil first div la apply krychi mnhun '>' used kel  */
+            width: 40%;
+        }
+        
+        .rightsection {
+            font-size: 30px;
+            font-family: Dancing Script;
+        }
+        
+        .button {
+            background: #331c30;
+            color: rgb(255, 255, 255);
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+            padding: 6px 6px;
+            margin: 30px 0;
+        }
+        
+        .button:hover {
+            font-size: larger;
+            background-color: brown;
+        }
+        
+        #gopal {
+            color: yellow;
+        }
+        
+        .text-gray {
+            color: gray;
+            font-size: 14px;
+            font-family: monospace;
+        }
+        
+        .leftsection img {
+            width: 500px;
+            height: 500px;
+        }
+        
+        #element {
+            color: wheat;
+        }
+        
+        .thirdsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 1000px;
+        }
+        
+        section#skillpart.thirdsection {
+            max-width: 80vw;
+            /* margin: auto; */
+            height: 200px;
+            margin: 95px 0 0 137px;
+            margin-left: 10rem;
+        }
+        
+        .thirdsection h1 {
+            font-family: cursive;
+            font-size: 1.9rem;
+        }
+        
+        .thirdsection .box {
+            background: white;
+            width: 80vw;
+            height: 3px;
+            margin: 58px 0 56px 35px;
+            display: flex;
+        }
+        
+        .thirdsection .vertical {
+            height: 90px;
+            width: 1px;
+            background-color: white;
+            margin: 0 62px;
+        }
+        
+        .thirdsection div.sk {
+            margin-top: 25rem;
+        }
+        
+        .image-top {
+            width: 50px;
+            position: relative;
+            top: -55px;
+            left: -25px;
+        }
+        
+        .vertical-title {
+            position: relative;
+            top: 92px;
+            left: -18px;
+            width: 150px;
+        }
+        
+        .vertical-desc {
+            position: relative;
+            top: 140px;
+            left: -220px;
+            color: gray;
+            width: 140px;
+            font-size: 15px;
+            font-family: fantasy;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .vertical-desc pre {
+            font-family: cursive;
+            text-align: start;
+            margin: 5px;
+            margin-top: 3px;
+            width: 150px;
+            height: 170px;
+            justify-content: flex-start;
+        }
+        
+        footer {
+            background-color: rgb(36 35 54);
+        }
+        
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        
+        .footer-first {
+            font-family: cursive;
+        }
+        
+        .footer ul {
+            list-style: none;
+            font-size: 14px;
+            color: #777777;
+        }
+        
+        .footer>div {
+            width: 223px;
+        }
+        
+        footer .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+            font-family: cursive;
+        }
+        
+        .logo {
+            display: flex;
+            margin: 10px 30px;
+            align-items: center;
+            margin-top: 25rem;
+        }
+        
+        .logo#qualification_margin {
+            margin-top: 5rem;
+        }
+        
+        .logo a img {
+            height: 50px;
+            margin-left: 20px;
+        }
+        
+        .logo a img:hover {
+            background-color: white;
+        }
+        
+        .main {
+            width: 100vw;
+        }
+        
+        .mainhq {
+            margin-top: -7rem;
+        }
+        
+        .mainhc {
+            margin-top: -7rem;
+        }
+        
+        .one {
+            height: 600px;
+            margin-top: 10rem;
+        }
+        
+        div.main1 {
+            margin-top: -7rem;
+        }
+        
+        div.main2 {
+            margin-top: -8rem;
+        }
+        
+        h1.title_contact {
+            text-align: center;
+            /* margin-left: -3rem; */
+            margin-bottom: -3rem;
+        }
+        
+        #hh1 {
+            color: white;
+            margin-left: 180px;
+            margin-top: 50px;
+        }
+        
+        .contactform {
+            font-family: sans-serif;
+            padding: 0 444px;
+            padding-top: 8rem;
+        }
+        
+        .contactform fieldset {
+            border-width: 8px;
+            padding: 80px 80px;
+            /* margin-left: -10rem; */
+        }
+        
+        .contactform h1 {
+            font-family: initial;
+        }
+        
+        .contactform form div {
+            padding: 10px 0;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .contactform form div input {
+            width: 26vw;
+            border-radius: 5px;
+            margin: 6px 0 0 0;
+            padding: 3px;
+        }
+        
+        .contactform form button:hover {
+            background-color: brown;
+            font-size: large;
+        }
+        
+        #emailHelp {
+            font-size: 11px;
+            color: #898989;
+            margin: 0 5px;
+            padding: 3px 0 0 0;
+        }
+        
+        #form-check {
+            flex-direction: row;
+        }
+        
+        #form-check input {
+            width: 24px;
+            margin: 3px 4px;
+        }
+        
+        form .btn {
+            background: #3b1836;
+            color: rgb(255, 255, 255);
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 14px;
+            cursor: pointer;
+            padding: 6px 6px;
+            margin: 10px 0;
+        }
+        
+        .courseitem {
+            margin: 0px 0 0 100px;
+            display: flex;
+        }
+        
+        .coursecontainer {
+            margin: 90px 0 0 0;
+        }
+        
+        .coursecontainer h1 {
+            padding: 41px 0px 25px 99px;
+            font-family: monospace;
+            color: wheat;
+        }
+        
+        .courseitem h3 {
+            font-family: cursive;
+            height: 38px;
+            width: 446px;
+            font-size: 25px;
+        }
+        
+        .courseitem p {
+            font-family: initial;
+            margin: 45px 0 15px 0px;
+            display: inline;
+            padding: 0;
+            font-size: x-large;
+        }
+        
+        .courseitem .study {
+            float: right;
+            padding: 0 0 0 10px;
+        }
+        
+        .courseitem .study img {
+            height: 250px;
+        }
+        
+        .coursecontainer div {
+            width: 1800px;
+        }
+        
+        .main #abc {
+            margin: 40px 0 0 123px;
+        }
+        
+        .main .heading {
+            font-family: "Courier New", Courier, monospace;
+            margin: 50px 50px;
+        }
+        
+        .main .heading h1 {
+            display: contents;
+        }
+        
+        .main div img {
+            margin: -2px -2px;
+        }
+        
+        .main .head {
+            display: flex;
+        }
+        
+        .main .heading #element {
+            color: wheat;
+            font-size: xx-large;
+            font-family: system-ui;
+            font-weight: bold;
+        }
+        
+        .main .head p {
+            font-family: system-ui;
+            margin: 62px 10pc 13px 155px;
+            font-size: 18px;
+        }
+        
+        .courseitem #bom {
+            background: #331c30;
+            color: rgb(255, 255, 255);
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 13px;
+            cursor: pointer;
+            padding: 6px 6px;
+            margin: 0px 0px;
+        }
+        
+        .courseitem #bom:hover {
+            background-color: brown;
+            font-size: large;
+        }
+        
+        #abc #learn {
+            background: #331c30;
+            color: rgb(255, 255, 255);
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 13px;
+            cursor: pointer;
+            padding: 6px 6px;
+            margin: 0px 157px;
+        }
+        
+        #abc #learn:hover {
+            background-color: brown;
+            font-size: large;
+        }
+        
+        .foursection {
+            max-width: 80vw;
+            margin: 77px 0 0 130px;
+            height: 650px;
+            margin-left: 15rem;
+        }
+        
+        .foursection h1 {
+            font-family: cursive;
+            font-size: 1.9rem;
+            margin-bottom: 35px;
+        }
+        
+        .foursection .line {
+            background: white;
+            width: 72vw;
+            height: 3px;
+            margin: 58px 0 56px 93px;
+            display: flex;
+            margin-left: -1rem;
+        }
+        
+        .foursection .ver {
+            height: 90px;
+            width: 1px;
+            background-color: white;
+            margin: 0 125px;
+        }
+        
+        .ver .imgt {
+            width: 50px;
+            position: relative;
+            top: -55px;
+            left: -25px;
+        }
+        
+        .ver-title {
+            position: relative;
+            top: 92px;
+            left: -36px;
+            width: 90px;
+            font-family: cursive;
+        }
+        
+        .ver-title fieldset {
+            margin: 1 95px -4px -15px;
+        }
+        
+        .ver-desc {
+            position: relative;
+            top: 140px;
+            left: -259px;
+            color: white;
+            width: 150px;
+            font-size: 13px;
+            font-family: fantasy;
+        }
+        
+        #text {
+            font-weight: bolder;
+        }
+        
+        .ver-desc pre {
+            font-family: cursive;
+            margin-top: 27px;
+            margin-left: -4rem;
+        }
+        
+        .skillcontainer {
+            padding: 65px;
+            margin-left: 6rem;
+        }
+        
+        .skillitem {
+            display: flex;
+            align-items: center;
+            font-family: system-ui;
+            font-weight: 300;
+            font-size: 25px;
+        }
+        
+        .skill {
+            width: 265px;
+            height: 9px;
+            background-color: #c558b5;
+            border: 2px solid black;
+        }
+        
+        .t2 {
+            width: 260px;
+            background-color: rgb(198, 20, 20);
+            margin-left: 20px;
+        }
+        
+        .fifty {
+            width: 125px;
+            background-color: rgb(131, 70, 27);
+            margin-left: 20px;
+        }
+        
+        .t5 {
+            width: 150px;
+            background-color: rgb(6, 210, 210);
+            margin-left: 20px;
+        }
+        
+        .t6 {
+            width: 145px;
+            background-color: rgb(100, 108, 24);
+            margin-left: 20px;
+        }
+        
+        .t4 {
+            width: 140px;
+            background-color: rgb(8, 129, 170);
+            margin-left: 20px;
+        }
+        
+        .one .sk {
+            margin: 95px 0 0 137px;
+            margin-left: 25rem;
+        }
+        
+        .one.main. {
+            text-align: center;
+        }
+        
+        .sk h2 #element {
+            color: wheat;
+            font-size: 34px;
+            font-family: cursive;
+        }
+        
+        .sk h2 {
+            margin-bottom: 2rem;
+        }
+        
+        @media screen and (max-width: 900px) {
+            #img {
+                height: 56px;
+                mix-blend-mode: color-dodge;
+                margin-left: 0px;
+                margin-top: 0px;
+            }
+            nav ul {
+                display: flex;
+                justify-content: center;
+                font-size: 8px;
+                margin: 2px -15px 0 66px;
+                padding-left: 0px;
+                font-size: 6px;
+                padding-right: 0px;
+            }
+            nav ul li {
+                list-style: none;
+                margin-right: 23px;
+            }
+            .leftsection img {
+                width: 161px;
+                height: 215px;
+            }
+            .rightsection {
+                font-size: 10px;
+                font-family: Dancing Script;
+                margin-top: 2px;
+                margin-left: 36px;
+            }
+            .button {
+                background: #331c30;
+                color: rgb(255, 255, 255);
+                border: 2px solid white;
+                border-radius: 6px;
+                font-size: 6px;
+                cursor: pointer;
+                padding: 6px 6px;
+                margin: 7px 0;
+            }
+            .firstsection {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                margin: 98px 0px 233px 0;
+            }
+            main hr {
+                border: 0;
+                background: #ab76a5;
+                height: 1.2px;
+                margin: 22px 9px 28px 10px;
+            }
+            .text-gray {
+                color: gray;
+                font-size: 8px;
+                font-family: monospace;
+            }
+            .thirdsection {
+                max-width: 80vw;
+                margin: 31px;
+                height: 400px;
+            }
+            .thirdsection h1 {
+                font-family: cursive;
+                font-size: 1.3rem;
+            }
+            .thirdsection .box {
+                background: white;
+                width: 236px;
+                height: 1px;
+                margin: 49px 0px 56px 7px;
+                display: flex;
+            }
+            .vertical-desc {
+                position: relative;
+                top: 70px;
+                left: -33px;
+                color: gray;
+                width: 150px;
+                font-size: 4px;
+                font-family: fantasy;
+            }
+            .thirdsection .vertical {
+                height: 48px;
+                width: 1px;
+                background-color: white;
+                margin: 0px 0px 0 -1px;
+            }
+            .vertical-title {
+                position: relative;
+                top: 34px;
+                left: -6px;
+                width: 51px;
+                font-size: 6px;
+            }
+            .image-top {
+                width: 18px;
+                position: relative;
+                top: -20px;
+                left: -7px;
+            }
+            .footer {
+                display: flex;
+                padding: 4px 44px;
+                justify-content: space-evenly;
+                align-items: center;
+            }
+            .footer-first {
+                font-family: cursive;
+                font-size: 6px;
+            }
+            .footer ul {
+                list-style: none;
+                font-size: 7px;
+                color: #777777;
+            }
+            footer {
+                background-color: rgb(36 35 54);
+                margin-right: -5px;
+            }
+            footer .footer-rights {
+                text-align: center;
+                color: gray;
+                padding: 12px 0;
+                font-family: cursive;
+                font-size: 8px;
+            }
+            .footer-first h3 {
+                font-family: cursive;
+                font-size: 10px;
+            }
+            .logo a img {
+                height: 13px;
+            }
+            .main .heading #element {
+                color: wheat;
+                font-size: large;
+                font-family: system-ui;
+                font-weight: bold;
+                margin-left: -128px;
+            }
+            .main div img {
+                margin: 78px -119px;
+                height: 180px;
+                width: 193px;
+            }
+            .main .head p {
+                font-family: system-ui;
+                margin: 132px -51px 6px 98px;
+                font-size: 11px;
+            }
+            #abc #learn {
+                background: #331c30;
+                color: rgb(255, 255, 255);
+                border: 2px solid white;
+                border-radius: 6px;
+                font-size: 10px;
+                cursor: pointer;
+                padding: 6px 6px;
+                margin: 0px 100px;
+            }
+            #abc #learn {
+                background: #331c30;
+                color: rgb(255, 255, 255);
+                border: 2px solid white;
+                border-radius: 6px;
+                font-size: 6px;
+                cursor: pointer;
+                padding: 6px 6px;
+                margin: 0px 23px 0 109px;
+            }
+            .foursection {
+                max-width: 80vw;
+                margin: 47px 0 0 52px;
+                height: 650px;
+            }
+            .main div img {
+                margin: -34px 17px;
+                height: 24px;
+                width: 21px;
+            }
+            .foursection h1 {
+                font-family: cursive;
+                font-size: 18px;
+                margin-bottom: 128px;
+            }
+            .ver-desc pre {
+                font-family: cursive;
+                margin-top: -65px;
+                margin-left: 176px;
+                font-size: 6px;
+            }
+            .foursection .ver {
+                height: 38px;
+                width: 1px;
+                background-color: white;
+                margin: 0px 0px;
+            }
+            .foursection .line {
+                background: white;
+                width: 303px;
+                height: 1px;
+                margin: 0px 0 17px 18px;
+                display: flex;
+            }
+            .ver-title fieldset {
+                margin: -172px 112px 0px 0px;
+                font-size: 9px;
+            }
+            .coursecontainer h1 {
+                padding: 7px 0px 23px 16px;
+                font-family: monospace;
+                color: #93a5a5;
+                font-size: 3px;
+            }
+            .courseitem h3 {
+                font-family: cursive;
+                height: 0px;
+                width: 446px;
+                font-size: 6px;
+            }
+            .courseitem p {
+                font-family: initial;
+                margin: 45px 0 16px 0px;
+                display: inline;
+                padding: 0;
+                font-size: 6px;
+            }
+            .coursecontainer div {
+                width: 1800px;
+                margin-left: 7px;
+            }
+            .courseitem #bom {
+                background: #331c30;
+                color: rgb(255, 255, 255);
+                border: 2px solid white;
+                border-radius: 6px;
+                font-size: 3px;
+                cursor: pointer;
+                padding: 4px 6px;
+                margin: 0px 0px;
+            }
+            .courseitem .study img {
+                height: 145px;
+                width: 143px;
+                margin: -117px 2px;
+            }
+            .courseitem .study {
+                float: right;
+                padding: 0 0 0 0px;
+            }
+            .coursecontainer div {
+                width: 257px;
+                margin-left: 7px;
+            }
+            .contactform fieldset {
+                border-width: 5px;
+                margin-left: 110px;
+                margin-right: 0px;
+                padding: 45px 34px;
+                font-size: 5px;
+                margin-top: 66px;
+            }
+            .contactform h1 {
+                font-family: initial;
+                font-size: 8px;
+            }
+            .contactform form div input {
+                width: 75vw;
+                border-radius: 8px;
+                margin: 4px 0 0 0;
+                padding: 4px;
+                font-size: 4px;
+            }
+            body {
+                background-color: rgb(15 13 39);
+                font-family: "Poppins", sans-serif;
+                color: white;
+                margin-right: -95px;
+            }
+            #emailHelp {
+                font-size: 2px;
+                color: #898989;
+                margin: 0 5px;
+                padding: 3px 0 0 0;
+            }
+            form .btn {
+                background: #3b1836;
+                color: rgb(255, 255, 255);
+                border: 2px solid white;
+                border-radius: 6px;
+                font-size: 4px;
+                cursor: pointer;
+                padding: 3px 3px;
+                margin: -9px 0;
+            }
+            #form-check input {
+                width: 24px;
+                margin: 2px 0px;
+                height: 4px;
+            }
+            .sk h2 #element {
+                color: #777777;
+                font-size: 19px;
+                font-family: cursive;
+                margin-left: -76px;
+            }
+            .skillcontainer {
+                padding: 27px 0;
+            }
+            .skillitem {
+                display: flex;
+                align-items: center;
+                font-family: system-ui;
+                font-weight: 300;
+                font-size: 15px;
+                margin: 4px;
+            }
+            .skillcontainer {
+                padding: 27px 0;
+                margin-left: -82px;
+                margin-right: 62px;
+            }
+            .contactform {
+                font-family: sans-serif;
+                padding: 54px 0 0 0;
+            }
+            .main div img {
+                margin: 78px -119px;
+                height: 180px;
+                width: 193px;
+            }
+            .ver .imgt {
+                width: 50px;
+                position: relative;
+                top: -99px;
+                left: -41px;
+                margin: 70px 31px;
+                height: 24px;
+                width: 21px;
+            }
+        }

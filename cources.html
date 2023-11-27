@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style2.css" />
+    <!-- <link rel="stylesheet" href="style1.css" /> -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header class="header" id="header">
+
+        <nav class="nav container">
+            <div class="left">
+                <a href="index.html"><img id="img" src="https://cdn.dribbble.com/userupload/9285329/file/original-1853639a5734bc11d45c63c3484eb174.jpg?resize=400x0" height="100px"> </a>
+            </div>
+            <a href="#" class="nav__logo">GOPAL</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="home.html" class="nav__link"><i class="ri-home-4-line"></i> Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="project.html" class="nav__link"><i class="ri-trophy-line"></i> Projects</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="about.html" class="nav__link"><i class="ri-trophy-line"></i> About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="Qualification.html" class="nav__link"><i class="ri-book-open-line"></i> Qualification</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="cources.html" class="nav__link"><i class="ri-image-2-line"></i> Cources</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="contact.html" class="nav__link"><i class="ri-chat-3-line"></i> Contact</a>
+                    </li>
+                </ul>
+
+                <!-- close button -->
+                <div class="nav__close" id="nav-close"><i class="ri-close-line"></i></div>
+                <hr>
+            </div>
+
+            <div class="nav__buttons">
+                <!-- Theme change button -->
+                <!-- <i class="ri-moon-line change-theme" id="theme-button"></i> -->
+
+                <!-- Toggle button -->
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="one">
+            <div class="main">
+                <div class="coursecontainer">
+                    <h1><span id="element"></span></h1>
+                    <div class="courseitem">
+                        <div>
+                            <h3>Advance Diploma in Full Stack Java</h3>
+                            <br>
+                            <p>
+                                <br><br> Duration : 6 Month <br><br> Institute : Exponent IT Training and Services, Akurdi, Pune <br><br> Contents : #Java/OOP-Concept #JAVA(Core) #Database(MySQL) <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                #Advanced Java(Frameworks) #Hibernate #Spring Frameworks <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #HTML5/CSS3/JavaScript/Bootstrap <br> #Project #Aptitude + Soft Skills
+                                #Interview Preparation & Mock Test....<br><br>
+
+                            </p>
+                            <a href="https://exponent-it-training-services.business.site/"><button id="bom">Learn More</button></a>
+                        </div>
+                        <div class="study"><img src="img/infoboy.png">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="logo">
+                <div>
+                    <a href="https://www.instagram.com/_ak_king_0_0_7/" target="_blank"><img src="img/instagram.png" height="30px"></a>
+                </div>
+                <div>
+                    <a href="https://www.linkedin.com/in/gopal-badgujar-0246b6221" target="_blank">
+                        <img src="img/linkedin.png" height="35px"></a>
+                </div>
+                <div>
+                    <a href="https://github.com/gopalbadgujar" target="_blank">
+                        <img src="img/git logo.png"></a>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer">
+                <div class="footer-first">
+                    <h3> Gopal Developer Portfolio</h3>
+                </div>
+                <div class="footer-second"></div>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+                <div class="footer-third">
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Services</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-rights">
+                Copyrights &#169; gopalportfolio.com | All rights reserved
+            </div>
+        </footer>
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed("#element", {
+            strings: ["I Have Done One Professional Course..."],
+            typeSpeed: 80,
+        });
+    </script>
+</body>
+
+</html>
